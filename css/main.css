@@ -26,6 +26,9 @@ nav div p {
   font-family: "Arimo", Helvetica, sans-serif;
 }
 
+#main p {
+  color: #f90;
+}
 nav .separator {
   min-width: 20px;
   max-width: 100px;
@@ -44,3 +47,28 @@ hr {
   background-image:      -o-linear-gradient(left, #fff, #f90, #fff);
   /* http://css-tricks.com/examples/hrs/ */
 }
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #000;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fc0;
+}
+
+/* selected link */
+a:active {
+    color: #f90;
+}
+
