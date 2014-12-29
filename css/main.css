@@ -50,6 +50,12 @@ hr {
 
 a {
   text-decoration: none;
+  -o-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -khtml-transition: color .2s ease;
+  -webkit-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  transition: color .2s ease;
 }
 
 /* unvisited link */
