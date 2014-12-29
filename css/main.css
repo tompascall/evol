@@ -4,8 +4,11 @@ header, section, footer, aside, nav, main, article, figure {
     display: block;
 }
 
+body {
+  min-width: 700px;
+}
 header {
-  min-width: 500px;
+  min-width: 600px;
   margin: 0;
   padding: 0;
   font-size: 0;
@@ -15,6 +18,7 @@ header {
 header div {
   display: inline-block;
   width: 25%;
+  min-width: 150px;
 }
 
 header div p {
