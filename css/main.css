@@ -4,11 +4,15 @@ header, section, footer, aside, nav, main, article, figure {
     display: block;
 }
 
+#header-container {
+  background-color: #f8f8f8;
+  margin: 0;
+}
 
 nav {
   width: 700px;
-  margin: 10px auto 0 auto;
-  padding: 0;
+  margin: 0 auto;
+  padding: 10px 0 0 0;
   font-size: 0;
   /*border-bottom: solid 1px #ff9900;*/
 }
@@ -36,7 +40,7 @@ nav .separator {
 }
 
 hr {
-  margin: 2px;
+  margin: 4px;
   border: 0;
   height: 2px;
   min-width: 700px;
@@ -50,12 +54,12 @@ hr {
 
 a {
   text-decoration: none;
-  -o-transition: color .2s ease;
-  -moz-transition: color .2s ease;
-  -khtml-transition: color .2s ease;
-  -webkit-transition: color .2s ease;
-  -ms-transition: color .2s ease;
-  transition: color .2s ease;
+  -o-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -khtml-transition: color .5s ease;
+  -webkit-transition: color .5s ease;
+  -ms-transition: color .5s ease;
+  transition: color .5s ease;
 }
 
 /* unvisited link */
@@ -78,3 +82,10 @@ a:active {
     color: #f90;
 }
 
+header {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: "Droid Serif", Georgia, serif;
+}
