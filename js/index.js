@@ -8,7 +8,8 @@
         var options = {
             $BulletNavigatorOptions: {
                 $Class: $JssorBulletNavigator$,
-                $ChanceToShow: 2
+                $ChanceToShow: 2,
+                $AutoCenter: 1
             },
             $AutoPlay: true,
             $Loop: 1
