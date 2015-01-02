@@ -156,7 +156,8 @@ section h4 {
 }
 
 section ul {
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 section.subsection h4 {
