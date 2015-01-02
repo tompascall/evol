@@ -12,10 +12,10 @@ body {
 
 #nav-container {
   margin: 0;
- background-image: url("../img/repeatable-bkg-light.jpg");
- position: fixed;
- z-index: 10;
- left: 0;
+  background-image: url("../img/repeatable-bkg-light.jpg");
+  position: fixed;
+  z-index: 10;
+  left: 0;
   right: 0;
   margin: 0 auto;
 }
@@ -24,6 +24,12 @@ body {
   /*background-color: #e8e8e8;*/
   margin: 0;
  background-image: url("../img/repeatable-bkg-light.jpg");
+}
+
+#footer-container {
+  margin: 0;
+  background-image: url("../img/repeatable-bkg-light.jpg");
+  height: 100px;
 }
 
 nav {
@@ -123,12 +129,12 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #f90;
+    color: #960;
 }
 
 /* selected link */
 a:active {
-    color: #f90;
+    color: #960;
 }
 
 header {
@@ -171,10 +177,17 @@ section.subsection li {
   font-size: 18px;
 }
 
-#magyar-partner, #szlovak-partner {
+#magyar-partner, #szlovak-partner, #magyar-iroda, #szlovak-iroda {
   display: inline-block;
   width: 300px;
   vertical-align: top;
+}
+
+.two-column {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .fancy-separator {
@@ -190,32 +203,56 @@ section.subsection li {
   text-shadow: 1px 1px 3px #000;
 }
 
-#zaszlok {
-  width: 400px;
-  margin: 0 auto;
-}
-
-@media (max-width: 600px) {
-  section {
-    max-width: 400px;
+@media screen and (max-width: 700px){
+  nav {
+    width: 300px;
   }
 
-  h2 {
-    font-size: 28px;
+  nav .separator {
+    width: 13px;
+  }
+
+  nav div p {
+    font-size: 9px;
+  }
+
+  #header-ruler {
+    min-width: 300px;
+  }
+
+  header {
+    width: 100%;
+    max-width: 700px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  section {
+    max-width: 700px;
+  }
+
+  section section {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #magyar-partner, #szlovak-partner, #magyar-iroda, #szlovak-iroda {
+    width: 70%;
+  }
+
+  header h2 {
+    font-size: 24px;
+  }
+
+  header h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
   }
 
   h3 {
     font-size: 22px;
   }
 
-  nav div p {
-    font-size: 12px;
-  }
-
-  header {
-    width: 400px;
-  }
-
-  #header-ruler {
-  min-width: 480px;
 }
