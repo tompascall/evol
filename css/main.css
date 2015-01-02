@@ -203,13 +203,20 @@ section.subsection li {
   text-shadow: 1px 1px 3px #000;
 }
 
+#social-buttons {
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left:75px;
+}
+
 @media screen and (max-width: 700px){
   nav {
     width: 300px;
   }
 
   nav .separator {
-    width: 13px;
+    width: 11px;
   }
 
   nav div p {
