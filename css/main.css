@@ -129,12 +129,12 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #960;
+    color: #cc7a00;
 }
 
 /* selected link */
 a:active {
-    color: #960;
+    color: #cc7a00;
 }
 
 header {
@@ -210,7 +210,7 @@ section.subsection li {
   padding-left:75px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 400px){
   nav {
     width: 300px;
   }
@@ -225,6 +225,61 @@ section.subsection li {
 
   #header-ruler {
     min-width: 300px;
+  }
+
+  header {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  section {
+    max-width: 400px;
+  }
+
+  section section {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #magyar-partner, #szlovak-partner, #magyar-iroda, #szlovak-iroda {
+    width: 70%;
+  }
+
+  header h2 {
+    font-size: 24px;
+  }
+
+  header h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (max-width: 700px){
+  nav {
+    width: 400px;
+    padding-left: 5px;
+  }
+
+  nav .separator {
+    width: 12px;
+  }
+
+  nav div p {
+    font-size: 12px;
+  }
+
+  #header-ruler {
+    min-width: 400px;
   }
 
   header {
