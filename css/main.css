@@ -141,7 +141,6 @@ header {
 
 section {
   max-width: 800px;
-  /*margin: 0 auto;*/
   margin-left: 40px;
   margin-right: 20px;
   padding-top: 5px;
@@ -165,8 +164,17 @@ section.subsection h4 {
   margin-bottom: 0px;
 }
 
-div.subsection li {
+section.subsection p {
   font-size: 18px;
+}
+section.subsection li {
+  font-size: 18px;
+}
+
+#magyar-partner, #szlovak-partner {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
 }
 
 .fancy-separator {
@@ -180,6 +188,11 @@ div.subsection li {
   text-align: center;
   font-size: 36px;
   text-shadow: 1px 1px 3px #000;
+}
+
+#zaszlok {
+  width: 400px;
+  margin: 0 auto;
 }
 
 @media (max-width: 600px) {
