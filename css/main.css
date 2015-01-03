@@ -12,6 +12,7 @@ body {
 
 #nav-container {
   margin: 0;
+  background-color: #e8e8e8;
   background-image: url("../img/repeatable-bkg-light.jpg");
   position: fixed;
   z-index: 10;
@@ -21,9 +22,9 @@ body {
 }
 
 #header-container {
-  /*background-color: #e8e8e8;*/
+  background-color: #e8e8e8;
   margin: 0;
- background-image: url("../img/repeatable-bkg-light.jpg");
+  background-image: url("../img/repeatable-bkg-light.jpg");
 }
 
 nav {
@@ -113,21 +114,40 @@ a {
 
 /* unvisited link */
 a:link {
-  color: #000;
+  color: #cc7a00;
 }
 
 /* visited link */
 a:visited {
-    color: #000;
+    color: #cc7a00;
 }
 
 /* mouse over link */
 a:hover {
-    color: #cc7a00;
+    color: #f90;
 }
 
 /* selected link */
 a:active {
+    color: #f90;
+}
+
+nav a:link {
+  color: #000;
+}
+
+/* visited link */
+nav a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: #cc7a00;
+}
+
+/* selected link */
+nav a:active {
     color: #cc7a00;
 }
 
@@ -199,6 +219,7 @@ section.subsection li {
 
 #footer-container {
   margin: 50px 0 0 0;
+  background-color: #e8e8e8;
   background-image: url("../img/repeatable-bkg-light.jpg");
   height: 150px;
   padding-top: 40px;
