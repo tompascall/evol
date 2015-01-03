@@ -205,25 +205,27 @@ section.subsection li {
 }
 
 footer {
-  padding-top: 10px;
   font-family: "Droid Serif", Georgia, serif;
 }
 
 footer p {
     font-size: 16px;
-    margin: 50px 0 0 0;
+    margin: 40px 0 0 0;
     text-align: center;
 }
 
-#social-buttons {
-  width: 200px;
+#social-buttons-container {
+  width: 300px;
   margin: 0 auto;
-  padding-left: 30px;
+  padding-left: 42px;
 }
 
-#design {
-  margin-top: 0px;
-  margin-bottom: 0;
+#share-buttons img {
+  width: 50px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
 }
 
 @media screen and (max-width: 700px){
