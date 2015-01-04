@@ -1,0 +1,7 @@
+// todo.txt
+
+- update social media buttons in connection with domain name
+- add linkedin profils to partners
+- add logo
+- add favicon <link rel="icon" href="img/favicon.ico">
+
