@@ -48,6 +48,7 @@
   </div>
   <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 1000px; height: 200px;">
     <!-- Slides Container -->
+    <!-- http://www.jssor.com/download.html -->
     <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1000px; height: 200px;">
         <div>
           <img u="image" src="img/building-automation-header.jpg"/>
@@ -74,37 +75,34 @@
           </div>
         </div>
     </div>
-    <!-- Navigator Skin Begin -->
-        <!-- open 'skin\bullet-...source.html', copy and paste bullet navigator skin here -->
-        <!-- Bullet Navigator Skin Begin -->
-        <style>
-            /* jssor slider bullet navigator skin 14 css */
-            /*
-            .jssorb14 div           (normal)
-            .jssorb14 div:hover     (normal mouseover)
-            .jssorb14 .av           (active)
-            .jssorb14 .av:hover     (active mouseover)
-            .jssorb14 .dn           (mousedown)
-            */
-            .jssorb14 div, .jssorb14 div:hover, .jssorb14 .av
-            {
-                background: url(img/b14.png) no-repeat;
-                overflow:hidden;
-                cursor: pointer;
-            }
-            .jssorb14 div { background-position: -9px -9px; }
-            .jssorb14 div:hover, .jssorb14 .av:hover { background-position: -39px -9px; }
-            .jssorb14 .av { background-position: -69px -9px; }
-            .jssorb14 .dn, .jssorb14 .dn:hover { background-position: -99px -9px; }
-        </style>
-        <!-- bullet navigator container -->
-        <div u="navigator" class="jssorb14" style="position: absolute; bottom: 16px; right: 6px;">
-            <!-- bullet navigator item prototype -->
-            <div u="prototype" style="POSITION: absolute; WIDTH: 12px; HEIGHT: 12px;"></div>
-        </div>
-        <!-- Bullet Navigator Skin End -->
-    <!-- Navigator Skin End -->
-</div>
+    <!-- Bullet Navigator Skin Begin -->
+    <style>
+        /* jssor slider bullet navigator skin 14 css */
+        /*
+        .jssorb14 div           (normal)
+        .jssorb14 div:hover     (normal mouseover)
+        .jssorb14 .av           (active)
+        .jssorb14 .av:hover     (active mouseover)
+        .jssorb14 .dn           (mousedown)
+        */
+        .jssorb14 div, .jssorb14 div:hover, .jssorb14 .av
+        {
+            background: url(img/b14.png) no-repeat;
+            overflow:hidden;
+            cursor: pointer;
+        }
+        .jssorb14 div { background-position: -9px -9px; }
+        .jssorb14 div:hover, .jssorb14 .av:hover { background-position: -39px -9px; }
+        .jssorb14 .av { background-position: -69px -9px; }
+        .jssorb14 .dn, .jssorb14 .dn:hover { background-position: -99px -9px; }
+    </style>
+    <!-- bullet navigator container -->
+    <div u="navigator" class="jssorb14" style="position: absolute; bottom: 16px; right: 6px;">
+        <!-- bullet navigator item prototype -->
+        <div u="prototype" style="POSITION: absolute; WIDTH: 12px; HEIGHT: 12px;"></div>
+    </div>
+    <!-- Bullet Navigator Skin End -->
+  </div>
   <div id="bemutatkozas"></div>
   <section>
     <div class="fancy-separator"><h4>Bemutatkozás</h4></div>
@@ -228,6 +226,7 @@
   </footer>
 </div>
 <!-- Initializing smooth-scroll -->
+<!-- https://github.com/cferdinandi/smooth-scroll -->
 <script>
     smoothScroll.init();
 </script>
