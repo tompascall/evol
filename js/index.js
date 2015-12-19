@@ -1,5 +1,3 @@
-// index.js
-
 
 // SLIDER snippet
 // Source: http://www.jssor.com/

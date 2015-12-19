@@ -55,15 +55,15 @@ h4 {
 }
 
 h5 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 li {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 nav div p {
@@ -195,13 +195,13 @@ section.subsection li {
 ul.service-list {
   list-style-type: none;
   padding: 15px 0 0 0;
-  margin: 0;
+  margin: 5px 0 0 0;
 }
 
 li.service-list {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 5px 0;
 }
 
 #magyar-partner, #szlovak-partner, #magyar-iroda, #szlovak-iroda {
