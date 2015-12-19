@@ -4,9 +4,16 @@ header, section, footer, aside, nav, main, article, figure {
     display: block;
 }
 
-body {
-  margin: 0;
+html, body, h1, h2, h3, p, ol, ul, li, a {
   padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+
+}
+
+body {
   background-image: url("../img/repeatable-bkg_more-lighter.jpg");
 }
 
@@ -42,6 +49,15 @@ nav div {
   display: inline-block;
 }
 
+h1, h2, h3, h4, h5 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  -webkit-margin-before: 1rem;
+  -webkit-margin-after: 1rem;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
 h2 {
   font-size: 36px;
 }
@@ -60,10 +76,13 @@ h5 {
 
 p {
   font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 8px;
 }
 
 nav div p {
@@ -160,6 +179,10 @@ header {
   font-family: "Droid Serif", Georgia, serif;
 }
 
+.welcome {
+  margin-top: 2rem;
+}
+
 section {
   max-width: 800px;
   margin-left: 40px;
@@ -169,10 +192,14 @@ section {
 }
 
 section h4 {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 5px;
   padding-top: 15px;
+}
+
+section h4.intro {
+  margin-top: 1rem;
 }
 
 section ul {
@@ -201,7 +228,22 @@ ul.service-list {
 li.service-list {
   list-style-type: none;
   padding: 0;
-  margin: 0 0 5px 0;
+  margin: 0 0 15px 0;
+}
+
+#kapcsolat p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+#kapcsolat p.title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+#kapcsolat p.subtitle {
+  margin-bottom: 0.7rem;
 }
 
 #magyar-partner, #szlovak-partner, #magyar-iroda, #szlovak-iroda {
@@ -220,6 +262,7 @@ li.service-list {
 .fancy-separator {
   margin-top: 0;
   border-bottom: solid 2px #f90;
+  margin-bottom: 1rem;
 }
 
 
@@ -228,6 +271,7 @@ li.service-list {
   text-align: center;
   font-size: 36px;
   text-shadow: 1px 1px 3px #000;
+  margin-top: 1rem;
 }
 
 #footer-container {
