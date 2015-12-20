@@ -362,6 +362,59 @@ footer p {
 }
 
 @media screen and (max-width: 400px){
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+  section.subsection h4 {
+    font-size: 22px;
+  }
+
+  section.subsection p {
+    font-size: 16px;
+  }
+  
+  section.subsection li {
+    font-size: 16px;
+  }
+
+  #kapcsolat p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+
+  #kapcsolat p.title {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  #kapcsolat p.subtitle {
+    margin-bottom: 0.7rem;
+  }
+
   nav {
     width: 300px;
     padding-left: 0;
