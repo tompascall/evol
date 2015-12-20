@@ -379,13 +379,13 @@ footer p {
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
   li {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   section.subsection h4 {
@@ -393,22 +393,22 @@ footer p {
   }
 
   section.subsection p {
-    font-size: 16px;
+    font-size: 18px;
   }
   
   section.subsection li {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #kapcsolat p {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #kapcsolat p.title {
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   #kapcsolat p.subtitle {
